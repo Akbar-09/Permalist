@@ -1,5 +1,14 @@
 <%- include('partials/header.ejs'); -%>
 
+  <form  class="tab-view" action="/header" method="post">
+  <% headers1.forEach(function(header) { %>
+    <input type="submit" name="header" value="<%= header.id %>" id="<%= header.id %>">
+    <label for="<%= header.id %>" >
+      <%= header.list_name %>
+    </label>
+    <% }); %>
+  </form>
+
   <div class="box" id="heading">
     <h1>
       <%= listTitle %>

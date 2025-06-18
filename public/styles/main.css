@@ -72,6 +72,11 @@ button.add {
   color: #fff;
   font-size: 30px;
   border-width: 0;
+   background-image: none; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%; 
+  cursor: pointer;
 }
 
 button.edit {
@@ -111,3 +116,31 @@ footer {
   color: white;
   text-align: center;
 }
+
+.tab-view > label { 
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+  margin: 30px 7px 0 7px;
+  padding: 10px;
+  border-radius: 12px; 
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #a683e3;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-view > label:hover {
+  background-color: #e8dbff;
+  color: #8473a2;
+}
+
+.tab-view > input {
+  position: absolute;
+  display: none;
+}
+
+
