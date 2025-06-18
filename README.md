@@ -9,7 +9,7 @@ Permalist website it's a permanent to-do list you can't lose your to-do list inf
 - Edit existing items
 - Delete items
 - View all items in the list
-- *New*: Add Daily, Monthly, Yearly lists. You can add tasks that need to be completed.  
+- Add Daily, Weekly, Monthly lists. You can add tasks that need to be completed.  
 
 
 # Technologies Used
@@ -75,6 +75,7 @@ const db = new pg.Client({
 });
 ```
 
+
 ## Usage
 
 1. Start the server:
@@ -86,6 +87,16 @@ const db = new pg.Client({
 2. Open your web browser and navigate to `http://localhost:3000` to access the application.
 
 3. Use the application to create, edit, and delete tasks on your to-do list.
+
+
+# Deployment Preview
+
+![Main](<public/screenshots/permalist 1.png>)
+----
+![weekly List Feature](<public/screenshots/permalist 2.png>)
+----
+![Monthly List](<public/screenshots/permalist 3.png>)
+   
 
 ## Acknowledgments
 
